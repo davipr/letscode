@@ -26,13 +26,14 @@ public class Main {
 
 			if (menu == 1) {
 
-				System.out.println("R$ " + Calculadora.jurossimples(montante, taxa, periodo));
+				System.out.printf("R$ %.2f" + Calculadora.jurossimples(montante, taxa, periodo));
 
 			}
 
 			if (menu == 2) {
-
-				System.out.println("R$ " + Calculadora.juroscompostos(montante, taxa, periodo));
+				
+				
+				System.out.printf("R$ %.2f", Calculadora.juroscompostos(montante, taxa, periodo));
 
 			}
 			break;
